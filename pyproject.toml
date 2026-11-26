@@ -1,9 +1,16 @@
 [project]
 name = "dhcp-client"
 version = "0.1.0"
-description = "Add your description here"
+description = "Tiny scapy-based DHCP probe: broadcast a Discover and dump every Offer on the wire."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "scapy>=2.6.1",
 ]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version_provider = "pep621"
+tag_format = "v$version"
+update_changelog_on_bump = true
+major_version_zero = true
