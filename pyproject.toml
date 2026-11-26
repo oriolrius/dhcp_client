@@ -1,6 +1,6 @@
 [project]
 name = "dhcp-client"
-version = "0.1.0"
+version = "0.2.0"
 description = "Tiny scapy-based DHCP probe: broadcast a Discover and dump every Offer on the wire."
 readme = "README.md"
 requires-python = ">=3.13"
